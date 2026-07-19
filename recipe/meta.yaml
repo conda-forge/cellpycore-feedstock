@@ -1,5 +1,5 @@
 {% set name = "cellpycore" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.3" %}
 {% set python_min = "3.13" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cellpycore-{{ version }}.tar.gz
-  sha256: 2624033e47fdc51bc9fa8d644ba6bf7ca8d69ee66f88ffbd922a819f5504843a
+  sha256: 2f8cee3d78b6d5049b74b5f64ee211b8d004816f31d4596522ac0ca6a2411614
 
 build:
   number: 0
